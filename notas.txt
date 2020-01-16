@@ -1,0 +1,4 @@
+Información valiosa:
+
+Transformar de avi a mp4:
+    https://unix.stackexchange.com/questions/35746/encode-with-ffmpeg-using-avi-to-mp4
