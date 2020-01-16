@@ -25,17 +25,14 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Rutas
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
+app.use('/api', require('./routes/video'));
 
 // Middleware para Vue.js router modo history
 const history = require('connect-history-api-fallback');
 app.use(history());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.set('puerto', process.env.PORT || 8001);
+app.set('puerto', process.env.PORT || 3000);
 app.listen(app.get('puerto'), () => {
   console.log('App listening on port: '+ app.get('puerto'));
 });

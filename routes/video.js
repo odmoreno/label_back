@@ -4,7 +4,7 @@ const router = express.Router();
 const fs = require('fs');
 
 const assets = 'public/videos';
-const videName = 'test2'; // without extension
+const videName = '2097'; // without extension
 
 import Video from '../models/video';
 
