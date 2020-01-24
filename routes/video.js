@@ -77,7 +77,7 @@ router.get('/video/:id', (req, res) => {
 });
 
 // Get de prueba 
-router.get('/video', (req, res) => {
+router.get('/videotest', (req, res) => {
 
     const path = `${assets}/${videName}.mp4`;
 
