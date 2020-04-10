@@ -1,4 +1,22 @@
-Información valiosa:
+Requisitos:
+    Mongodb
+    nodejs
 
-Transformar de avi a mp4:
-    https://unix.stackexchange.com/questions/35746/encode-with-ffmpeg-using-avi-to-mp4
+
+Instalacion:
+
+    npm install
+    npm install -g nodemon ** Si no esta en el package.json instalar
+
+Ejecutar:    
+    npm run devbabel
+
+prueba si no tienes front end:
+    http://localhost:3000/api/videos
+
+Info:
+
+    Guia: https://bluuweb.github.io/mevn/01-primeros-pasos/#nodemon-babel
+
+    Transformar de avi a mp4:
+        https://unix.stackexchange.com/questions/35746/encode-with-ffmpeg-using-avi-to-mp4
